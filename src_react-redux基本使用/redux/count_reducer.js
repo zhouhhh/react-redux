@@ -9,6 +9,6 @@ export default function countReducer(preState=initState,action){
         case DECREMENT:
             return preState - data
         default:
-             return preState
+            return preState
     }
 }
